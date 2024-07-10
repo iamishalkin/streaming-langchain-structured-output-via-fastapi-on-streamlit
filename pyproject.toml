@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm-streaming"
+version = "0.1.0"
+description = "experiments with llm streaming"
+authors = ["Ivan Mishalkin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.2.1"
+fastapi = "^0.111.0"
+langchain = "^0.2.7"
+langchain-community = "^0.2.7"
+openai = "^1.35.10"
+httpx = "^0.27.0"
+requests = "^2.32.3"
+langchain-openai = "^0.1.14"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = [ "poetry>=0.12",]
+build-backend = "poetry.masonry.api"
