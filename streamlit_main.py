@@ -24,7 +24,6 @@ if button:
             bios = chunk.get('biographies', [{}])
             for idx, bio in enumerate(bios):
                 if idx not in containers:
-                    print(idx)
                     containers[idx] = st.empty()
                 with containers[idx].container():
                     st.write(f"Biography of {bio.get('name', '')} {bio.get('surname', '')}, "
